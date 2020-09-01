@@ -81,11 +81,10 @@ body{
     text-decoration: none;
 }
 
+
 .header ul li a:hover{
     color: rgb(137, 184, 137);
 }
-
-
 
 
 .section-hero-container{
@@ -93,7 +92,6 @@ body{
     padding: 10px;
     padding-bottom: 15px;
     width: 100%;
-
 }
 
 
@@ -104,6 +102,7 @@ body{
     border-bottom: 1px solid rgb(34, 34, 48);
     margin: 10px;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
     /* background: linear-gradient(to right, rgb(0, 0, 0),rgb(134, 134, 134));*/
 } 
 
@@ -114,6 +113,7 @@ body{
     width: 300px;
     height: 320px;
     margin: 20px;
+    border-radius: 50%;
 }
 
 #section-hero .section-hero-der{
@@ -166,14 +166,15 @@ body{
     color: white;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
     width: 50%;
-
+    border-radius: 10px;
 }
 
 #section-about-me h2{
-    margin-top: 0;
+    margin-top: 7px;
     font-size: 35px;
     font-family: 'Fjalla One',sans-serif;
     margin-left: 10px;
+    color: rgb(175, 28, 28);
     }
 
 
