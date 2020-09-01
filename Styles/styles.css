@@ -85,12 +85,30 @@ body{
     color: rgb(137, 184, 137);
 }
 
+
+
+
+.section-hero-container{
+    background-color: #1b2127;
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+
+}
+
+
 #section-hero{
     display: flex;
-    background-color: #1b2127;
+    /* background-color: #1b2127; */
+    background: linear-gradient(to right,#283138,#747b81);
     border-bottom: 1px solid rgb(34, 34, 48);
+    margin: 10px;
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
     /* background: linear-gradient(to right, rgb(0, 0, 0),rgb(134, 134, 134));*/
 } 
+
+
+
 
 #section-hero .section-hero-izq img{
     width: 300px;
