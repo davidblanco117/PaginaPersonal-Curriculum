@@ -101,6 +101,7 @@ body{
     background: linear-gradient(to right,#283138,#747b81);
     border-bottom: 1px solid rgb(34, 34, 48);
     margin: 10px;
+    margin-right: 20px;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     /* background: linear-gradient(to right, rgb(0, 0, 0),rgb(134, 134, 134));*/
