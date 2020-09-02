@@ -30,6 +30,7 @@ body{
 }
 
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 
 .header{
     display: flex;
@@ -51,17 +52,62 @@ body{
 
 }
 
-.header ul li{
+.header-der > ul >li{
     margin: 0;
-    display: inline;
+   /*  display: inline; */
     padding: 20px;
     color: white;
     text-decoration: none;
+ 
 }
 
 .header .header-der{
-    justify-content: flex-end;
+    margin-right: 30px;
 }
+
+a{
+    text-decoration: none;
+}
+
+.header-der ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+}
+
+
+.submenu{
+    padding:5px ;
+    position: absolute;
+    background-color: #333333;   
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu > li:hover{
+    background-color: #504c4c;
+    transition: all 0.3s;
+}
+
+.submenu li a{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: #fff;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}   
 
 .header .header-izq{
     justify-content: flex-start;
@@ -84,9 +130,10 @@ body{
 
 .header ul li a:hover{
     color: rgb(137, 184, 137);
+    transition: all .3s;
 }
 
-
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 .section-hero-container{
     background-color: #1b2127;
     padding: 10px;
@@ -145,6 +192,8 @@ body{
     
 }
 
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 
 .section-about-me-container{
     background-color: #1b2127;
