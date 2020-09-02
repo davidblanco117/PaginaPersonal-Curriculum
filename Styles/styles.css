@@ -135,7 +135,8 @@ a{
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 .section-hero-container{
-    background-color: #1b2127;
+/*     background-color: #1b2127; */
+    background-color: #b3a9b6;
     padding: 10px;
     padding-bottom: 15px;
     width: 100%;
@@ -145,7 +146,8 @@ a{
 #section-hero{
     display: flex;
     /* background-color: #1b2127; */
-    background: linear-gradient(to right,#283138,#747b81);
+    /* background: linear-gradient(to right,#283138,#747b81); */
+    background: linear-gradient(to right,#476ab6,#a3b5c5);
     border-bottom: 1px solid rgb(34, 34, 48);
     margin: 10px;
     margin-right: 20px;
