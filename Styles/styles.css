@@ -27,6 +27,7 @@ html {
  }
 body{
     padding-top: 47px;
+    background-color: #1b2127;
 }
 
 
@@ -135,7 +136,7 @@ a{
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 .section-hero-container{
-    background-color: #1b2127;
+   /*  background-color: #1b2127; */
     padding: 10px;
     padding-bottom: 15px;
     width: 100%;
@@ -196,7 +197,7 @@ a{
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/*/
 
 .section-about-me-container{
-    background-color: #1b2127;
+   /*  background-color: #1b2127; */
     padding: 10px;
     padding-bottom: 15px;
     width: 100%;
@@ -234,11 +235,66 @@ a{
     font-size: 22px;
 
 }
+/* **************************************************************************************************************** */
+
+.section-mi-experiencia-container{
+   /*  background-color: #1b2127; */
+    height: 850px;
+}
+
+#section-mi-experiencia{
+    background: linear-gradient(to right,#3e4a53,#686e74);
+    height: 800px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+
+
+#section-mi-experiencia .article-puestos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
 
 
 
 
 
+#section-mi-experiencia h2,h3{
+    margin-left: 10px;
+    color: white;
+}
+
+#section-mi-experiencia h2{
+    margin-top: 0px;
+    color: rgb(87, 87, 214);
+}
+
+#section-mi-experiencia .article-container{
+    background: linear-gradient(to right,#283138,#3d4349);
+    color: white;
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
+    width: 45%;
+    padding: 10px;
+}
+#section-mi-experiencia .article-container h4{
+    margin-top: 7px;
+    font-size: 27px;
+    padding-bottom: 0px ;
+    margin-bottom: 5px;
+    font-family: 'Fjalla One',sans-serif;
+    margin-left: 10px;
+    color: rgb(175, 28, 28);
+    }
+
+#section-mi-experiencia .article-container p{
+    margin-left: 10px;
+    }
 
 
 
