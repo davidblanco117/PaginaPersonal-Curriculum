@@ -28,6 +28,7 @@ html {
 body{
     padding-top: 47px;
     background-color: #1b2127;
+    /* background-color: #0f1bc083; */
 }
 
 
@@ -256,13 +257,16 @@ a{
 
 
 
-#section-mi-experiencia .article-puestos{
+#section-mi-experiencia .article-puestos,.article-proyectos{
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
 }
 
-
+#section-mi-experiencia .article-puestos .article-logo img{
+    height: 100px;
+    width: 200px;
+}
 
 
 
@@ -276,7 +280,7 @@ a{
     color: rgb(87, 87, 214);
 }
 
-#section-mi-experiencia .article-container{
+#section-mi-experiencia .article-container,.article-container-proy{
     background: linear-gradient(to right,#283138,#3d4349);
     color: white;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
@@ -287,17 +291,23 @@ a{
     margin-top: 7px;
     font-size: 27px;
     padding-bottom: 0px ;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-family: 'Fjalla One',sans-serif;
     margin-left: 10px;
     color: rgb(175, 28, 28);
+    text-shadow: 1px 1px #ecd5d5;
     }
 
 #section-mi-experiencia .article-container p{
     margin-left: 10px;
     }
 
-
+#section-mi-experiencia .article-container .article-logo-titu{  
+    display: flex;
+}
+#section-mi-experiencia .article-container .article-logo-titu p{  
+    margin-top: 10px;
+}
 
 
 
