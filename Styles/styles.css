@@ -7,6 +7,12 @@ html {
     scroll-padding-top: 47px; /* height of sticky header */
   }
 
+h1,h2,h3,h4{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
 @font-face{
     font-family: 'font-moon';
     src: url('../Fonts/moon_get-Heavy.ttf');
@@ -241,12 +247,13 @@ a{
 
 .section-mi-experiencia-container{
    /*  background-color: #1b2127; */
-    height: 850px;
+    height: 1750px;
 }
 
 #section-mi-experiencia{
     background: linear-gradient(to right,#3e4a53,#686e74);
-    height: 800px;
+    /* background: linear-gradient(to right,#35393b,#a6afb8); */
+    height: 1700px;
     margin: 10px;
     margin-left: 20px;
     margin-top: 0px;
@@ -260,6 +267,7 @@ a{
 #section-mi-experiencia .article-puestos,.article-proyectos{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 
@@ -277,15 +285,17 @@ a{
 
 #section-mi-experiencia h2{
     margin-top: 0px;
-    color: rgb(87, 87, 214);
+    color: rgb(133 133 255);
+    font-size: 26px;
 }
 
 #section-mi-experiencia .article-container,.article-container-proy{
     background: linear-gradient(to right,#283138,#3d4349);
     color: white;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
-    width: 45%;
+    width: 40%;
     padding: 10px;
+    margin-bottom: 20px;
 }
 #section-mi-experiencia .article-container h4{
     margin-top: 7px;
@@ -309,9 +319,34 @@ a{
     margin-top: 10px;
 }
 
-#section-mi-experiencia .article-container .article-logo-titu a{  
+#section-mi-experiencia .article-container-proy a{  
     text-decoration: none;
-    color: blue;
+    color: #5a8dff;
+
+}
+
+#section-mi-experiencia .article-container-proy img{  
+    /* margin-left: 120px; */
+    width: 300px;
+    height: 200px;
+
+}
+
+#section-mi-experiencia .article-container-proy .proyecto-sup{
+    padding: 15px;
+    background: linear-gradient(to right,#3e4a53,#686e74);  
+    box-shadow: 2px 2px #0f1011;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#section-mi-experiencia .article-container-proy .proyecto-inf{
+    padding: 15px;
+    background: linear-gradient(to right,#98a5af,#b0b5bb);  
+    box-shadow: 2px 2px #0f1011;
+    display: flex;
+    justify-content: center;
 
 }
 
