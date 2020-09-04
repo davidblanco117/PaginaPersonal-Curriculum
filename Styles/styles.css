@@ -224,9 +224,17 @@ a{
     background: linear-gradient(to right,#283138,#3d4349);
     color: white;
     box-shadow:  4px 4px rgba(0, 0, 0, 0.4);
-    width: 50%;
+    /* width: 50%; */
+    width: 90%;
     border-radius: 10px;
 }
+
+#section-about-me p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 
 #section-about-me h2{
     margin-top: 7px;
