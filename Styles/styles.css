@@ -340,14 +340,24 @@ a{
 
 }
 
+
+#section-mi-experiencia .article-container-proy .proyecto-sup-container{
+    height: 265px;
+
+}
+
+
 #section-mi-experiencia .article-container-proy .proyecto-sup{
     padding: 15px;
     background: linear-gradient(to right,#3e4a53,#686e74);  
     box-shadow: 2px 2px #0f1011;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: inherit;
 
 }
+
+
 
 #section-mi-experiencia .article-container-proy .proyecto-inf{
     padding: 15px;
